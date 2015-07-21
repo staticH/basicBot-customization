@@ -1,7 +1,7 @@
 (function () {
 
     //Change this to your GitHub username so you don't have to modify so many things.
-    var fork = "Yemasthui";
+    var fork = "staticH";
 
     //Define our function responsible for extending the bot.
     function extend() {
@@ -60,8 +60,8 @@
         language: "english",
         chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
         startupCap: 1, // 1-200
-        startupVolume: 0, // 0-100
-        startupEmoji: false, // true or false
+        startupVolume: 50, // 0-100
+        startupEmoji: true, // true or false
         autowoot: true,
         autoskip: false,
         smartSkip: true,
@@ -86,13 +86,13 @@
         usercommandsEnabled: true,
         skipPosition: 3,
         skipReasons: [
-            ["theme", "This song does not fit the room theme. "],
-            ["op", "This song is on the OP list. "],
-            ["history", "This song is in the history. "],
-            ["mix", "You played a mix, which is against the rules. "],
-            ["sound", "The song you played had bad sound quality or no sound. "],
-            ["nsfw", "The song you contained was NSFW (image or sound). "],
-            ["unavailable", "The song you played was not available for some users. "]
+            ["theme", "Nu prea se potrivește această melodie... "],
+            ["op", "Nah,nu această melodie... "],
+            ["history", "De câte ori trebuie să mai ascult asta? "],
+            ["mix", "Data viitoare. "],
+            ["sound", "Melodia se aude prost,sau nu se aude. "],
+            ["nsfw", "Opa,melodia este interzisă! "],
+            ["unavailable", "Melodia nu poate fi auzită de toți utilizatorii. "]
         ],
         afkpositionCheck: 15,
         afkRankCheck: "ambassador",
