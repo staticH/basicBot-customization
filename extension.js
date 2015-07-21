@@ -1,7 +1,7 @@
 (function () {
 
     //Change this to your GitHub username so you don't have to modify so many things.
-    var fork = "Razvi";
+    var fork = "staticH";
 
     //Define our function responsible for extending the bot.
     function extend() {
@@ -58,7 +58,7 @@
     localStorage.setItem("basicBotsettings", JSON.stringify({
         botName: "DomnulBOT",
         language: "english",
-        chatLink: "https://rawgit.com/Razvi/basicBot/master/lang/en.json",
+        chatLink: "https://rawgit.com/staticH/basicBot/master/lang/en.json",
         startupCap: 1, // 1-200
         startupVolume: 50, // 0-100
         startupEmoji: true, // true or false
@@ -120,6 +120,6 @@
     }));
 
     //Start the bot and extend it when it has loaded.
-    $.getScript("https://rawgit.com/Yemasthui/basicBot/master/basicBot.js", extend);
+    $.getScript("https://rawgit.com/staticH/basicBot/master/basicBot.js", extend);
 
 }).call(this);
