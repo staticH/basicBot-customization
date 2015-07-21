@@ -1,7 +1,7 @@
 (function () {
 
     //Change this to your GitHub username so you don't have to modify so many things.
-    var fork = "Yemasthui";
+    var fork = "Razvi";
 
     //Define our function responsible for extending the bot.
     function extend() {
@@ -56,12 +56,12 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-        botName: "basicBot",
+        botName: "DomnulBOT",
         language: "english",
-        chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
+        chatLink: "https://rawgit.com/Razvi/basicBot/master/lang/en.json",
         startupCap: 1, // 1-200
-        startupVolume: 0, // 0-100
-        startupEmoji: false, // true or false
+        startupVolume: 50, // 0-100
+        startupEmoji: true, // true or false
         autowoot: true,
         autoskip: false,
         smartSkip: true,
@@ -80,19 +80,19 @@
         voteSkipLimit: 10,
         historySkip: false,
         timeGuard: true,
-        maximumSongLength: 10,
+        maximumSongLength: 7,
         autodisable: true,
         commandCooldown: 30,
         usercommandsEnabled: true,
         skipPosition: 3,
         skipReasons: [
-            ["theme", "This song does not fit the room theme. "],
-            ["op", "This song is on the OP list. "],
-            ["history", "This song is in the history. "],
-            ["mix", "You played a mix, which is against the rules. "],
-            ["sound", "The song you played had bad sound quality or no sound. "],
-            ["nsfw", "The song you contained was NSFW (image or sound). "],
-            ["unavailable", "The song you played was not available for some users. "]
+            ["theme", "Melodia nu se potrivește comunității. "],
+            ["op", "Melodia se află pe lista neagră. "],
+            ["history", "De câte ori se mai repetă melodia asta? "],
+            ["mix", "No,no,nu de data asta! "],
+            ["sound", "Melodia se aude prost,sau nu se aude. "],
+            ["nsfw", "Se mai întâmplă,ce să faci? "],
+            ["unavailable", "Alo!Unii useri nu pot asculta această melodie! "]
         ],
         afkpositionCheck: 15,
         afkRankCheck: "ambassador",
