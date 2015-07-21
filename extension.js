@@ -59,7 +59,7 @@
         botName: "DomnulBOT",
         language: "english",
         chatLink: "https://rawgit.com/staticH/basicBot/master/lang/en.json",
-        startupCap: 1, // 1-200
+        startupCap: 200, // 1-200
         startupVolume: 50, // 0-100
         startupEmoji: true, // true or false
         autowoot: true,
