@@ -1,7 +1,7 @@
 (function () {
 
     //Change this to your GitHub username so you don't have to modify so many things.
-    var fork = "Yemasthui";
+    var fork = "staticH";
 
     //Define our function responsible for extending the bot.
     function extend() {
@@ -56,11 +56,11 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-        botName: "basicBot",
+        botName: "DomnulBOT",
         language: "english",
         chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
         startupCap: 1, // 1-200
-        startupVolume: 0, // 0-100
+        startupVolume: , // 0-100
         startupEmoji: false, // true or false
         autowoot: true,
         autoskip: false,
@@ -80,7 +80,7 @@
         voteSkipLimit: 10,
         historySkip: false,
         timeGuard: true,
-        maximumSongLength: 10,
+        maximumSongLength: 7,
         autodisable: true,
         commandCooldown: 30,
         usercommandsEnabled: true,
